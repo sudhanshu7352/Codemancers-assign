@@ -1,0 +1,35 @@
+.form_div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+.form_div button{
+    background-color: rgb(80,220,231);
+    margin-top: -5%;
+    margin-left: 2%;
+    color: rgb(82, 17, 17);
+}
+.form_div button:hover{
+    background-color: rgb(142, 205, 209);
+    /* opacity: 20%; */
+}
+/* .form_div button:nth-child(1){
+    width: 20px;
+    height: 30px;
+} */
+.post_div{
+    border: 2px solid rgb(218, 209, 209);
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.post_div img{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+#textbox{
+ border: 2px solid rgb(221, 214, 214);
+}

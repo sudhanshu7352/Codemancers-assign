@@ -3,9 +3,9 @@ import {useState} from 'react'
 import {TextList} from './TextList'
 import Error from './error'
 // import Error from '../components/Error'
+import "./home.css"
 
-
-const giphy = new GiphyFetch(process.env.REACT_APP_GIP_KEY)
+const giphy = new GiphyFetch("iaU6SYagwWlqYC7Gb7GHRuK5c3PdCu9T")
 
 export const Home=()=> {
   const [text, setText] = useState('')
